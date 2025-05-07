@@ -5,7 +5,7 @@ import {
   QueryClient,
 } from '@tanstack/react-query';
 import { getNotifications } from '@/entities/Notifications/api/getNotifications';
-import Notifications from '@/pages/Notifications/ui/Notifications';
+import Notifications from '@/fsd_pages/Notifications/ui/Notifications';
 
 export const metadata: Metadata = {
   title: 'Уведомления',
