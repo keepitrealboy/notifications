@@ -12,7 +12,7 @@ const tabBarItems = [
   { label: 'Упоминания', index: 2 },
 ];
 
-export const Notifications = () => {
+const Notifications = () => {
   return (
     <main>
       <section className={styles.Notifications}>
@@ -29,3 +29,5 @@ export const Notifications = () => {
     </main>
   );
 };
+
+export default Notifications;
