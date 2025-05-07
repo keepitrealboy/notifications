@@ -1,0 +1,35 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.CardUserBlock {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.CardUserData {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.CardUserMeta {
+  display: flex;
+  flex-direction: column;
+}
+
+.CardActions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.CardInfo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}

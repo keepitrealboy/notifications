@@ -1,0 +1,12 @@
+@use '@/shared/styles/mixins';
+
+.ButtonText {
+  padding: 8px 16px;
+  border-radius: 36px;
+  background-color: var(--main-text);
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  border: none;
+  color: var(--main-background);
+  cursor: pointer;
+  @include mixins.font-button-medium;
+}

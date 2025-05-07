@@ -1,0 +1,13 @@
+@use '@/shared/styles/mixins';
+
+.Text {
+  @include mixins.font-small-normal;
+  flex: 1;
+  color: var(--main-text);
+  transition: color 0.1s ease-in-out;
+  & span {
+    transition: color 0.1s ease-in-out;
+    cursor: pointer;
+    color: var(--main);
+  }
+}

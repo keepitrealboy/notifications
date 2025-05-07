@@ -1,0 +1,22 @@
+@use '@/shared/styles/mixins';
+
+.Chip {
+  padding: 3px 6px;
+  @include mixins.font-xs-normal;
+  color: var(--main-text);
+  background-color: var(--main-background);
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+  border: 1px solid var(--main-back-25);
+  cursor: pointer;
+  border-radius: 24px;
+  & span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &:hover {
+    background-color: var(--main-back-50);
+  }
+}

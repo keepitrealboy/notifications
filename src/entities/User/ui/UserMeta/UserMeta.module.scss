@@ -1,0 +1,14 @@
+@use '@/shared/styles/mixins';
+
+.UserMeta {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.UserMetaUsername {
+  text-decoration: none;
+  color: var(--main);
+  transition: color 0.1s ease-in-out;
+  @include mixins.font-small-normal;
+}

@@ -1,0 +1,20 @@
+@use '@/shared/styles/mixins';
+
+.Notifications {
+  display: flex;
+  flex-direction: column;
+  max-width: 620px;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 16px;
+}
+
+.NotificationsTitle {
+  @include mixins.font-xl-strong;
+  color: var(--main-text);
+  transition: background-color 0.1s ease-in-out;
+}

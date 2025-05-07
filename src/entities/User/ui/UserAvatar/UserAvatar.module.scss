@@ -1,0 +1,58 @@
+.UserAvatarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.UserAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.UserAvatarImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.UserAvatarWithStories {
+  width: 34px;
+  height: 34px;
+}
+
+.UserAvatarStories {
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.UserAvatarOnlineStatus {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-background);
+  transition: background-color 0.1s ease-in-out;
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  z-index: 1;
+
+  & > div {
+    width: 6px;
+    height: 6px;
+    background-color: var(--secondary-green);
+    transition: background-color 0.1s ease-in-out;
+    border-radius: 50%;
+  }
+}

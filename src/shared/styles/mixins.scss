@@ -1,0 +1,41 @@
+@mixin font-xl-strong {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+@mixin font-xs-normal {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+@mixin font-text-12 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+@mixin font-medium-strong {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@mixin font-button-medium {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@mixin font-medium-normal {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@mixin font-small-normal {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}

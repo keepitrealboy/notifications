@@ -1,0 +1,45 @@
+@use '@/shared/styles/mixins';
+
+.TabBar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid var(--main-back-50);
+  list-style: none;
+}
+
+.TabBarItem {
+  background-color: transparent;
+  cursor: pointer;
+  border: unset;
+  flex: 1;
+  padding: 16px 0 12px 0;
+  position: relative;
+  transition: background-color 0.2s ease-in-out, color 0.1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background-color: var(--main-back-50);
+  }
+  @include mixins.font-medium-normal;
+  color: var(--main-text-light);
+  &Active {
+    @include mixins.font-medium-strong;
+    & span {
+
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        height: 4px;
+        border-radius: 4px;
+        bottom: -12px;
+        left: -2.5px;
+        width: calc(100% + 5px);
+        background-color: var(--main);
+        transition: background-color 0.1s ease-in-out;
+      }
+    }
+  }
+}

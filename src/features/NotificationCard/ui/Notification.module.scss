@@ -1,0 +1,19 @@
+.CardGroup {
+  position: relative;
+  & + & {
+    border-top: 1px solid var(--main-back-50);
+  }
+}
+
+.CardGroup + .Card{
+  border-top: 1px solid var(--main-back-50);
+}
+
+.Card {
+  padding: 16px;
+  position: relative;
+
+  & + &, & + .CardGroup {
+    border-top: 1px solid var(--main-back-50);
+  }
+}
