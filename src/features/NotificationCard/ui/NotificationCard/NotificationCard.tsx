@@ -7,7 +7,6 @@ import { UserAvatar } from '@/entities/User/ui/UserAvatar/UserAvatar';
 import { NotificationText } from '@/entities/Notifications/ui/NotificationText/NotificationText';
 import { NotificationTime } from '@/entities/Notifications/ui/NotificationTime/NotificationTime';
 import { NotificationMoreButton } from '@/entities/Notifications/ui/NotificationMoreButton/NotificationMoreButton';
-import Image from 'next/image';
 import { NotificationImage } from '@/entities/Notifications/ui/NotificationImage/NotificationImage';
 import { UserName } from '@/entities/User/ui/UserName/UserName';
 import { UserMeta } from '@/entities/User/ui/UserMeta/UserMeta';
